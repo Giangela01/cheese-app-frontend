@@ -57,9 +57,9 @@ function Index(props) {
         />
         <input
           type="text"
-          value={newForm.title}
-          name="title"
-          placeholder="title"
+          value={newForm.countryOfOrigin}
+          name="countryOfOrigin"
+          placeholder="Country of Origin"
           onChange={handleChange}
           className="form-input"
         />
