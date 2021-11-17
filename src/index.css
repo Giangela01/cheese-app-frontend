@@ -5,9 +5,57 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("http://unblast.com/wp-content/uploads/2020/05/Light-Wood-Background-Texture-1.jpg");
+  
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: solid black 5px;
+}
+
+h1  {
+  color:black;
+  margin-bottom: 5px;
+  font-size: 45px;
+}
+h3 {
+  margin: 5px;
+}
+
+div.dairy {
+  border: solid black 5px;
+  width: 45%;
+  height: 45%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+input.form-input {
+  margin: 15px 10px;
+  font-size: 16px;
+  padding: 10px;
+  width: 250px;
+  border: 3px solid red;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: white;
+  color:black;
+  display: inline-block;
+  
+}
+
+input.button {
+  background: red;
+}
+
+  
